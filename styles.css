@@ -16,7 +16,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 40%;
+  min-height: 40%;
   /* border: 1px solid black; */
 }
 
@@ -34,7 +34,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 40%;
+  min-height: 40%;
 }
 
 .container {
@@ -55,7 +55,7 @@ footer {
   background: -moz-linear-gradient(top left, #7da8e5, #6a42ab);
   background: linear-gradient(to bottom right, #7da8e5, #6a42ab);
 
-  height: 20%;
+  min-height: 20%;
   /* border: 1px solid black; */
 }
 /*  -----------------
